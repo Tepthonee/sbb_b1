@@ -8,8 +8,8 @@ from sbb_b import sbb_b
 
 from ..Config import Config
 from ..core import check_owner
-sbb_b_IC = "https://telegra.ph/file/9fd0a28073d92e3052fe3.jpg"
-ROE = "** هـذه هي قائمة اوامـر سـورس كرستين  **"
+sbb_b_IC = "https://telegra.ph/file/f1e757035e56613a9ef92.jpg"
+ROE = "** هـذه هي قائمة اوامـر سـورس تيبثون  **"
 ROZADM = "من هنا يمكنك ايجاد جميع"
 RAZAN = Config.TG_BOT_USERNAME
 
@@ -23,7 +23,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         await sbb_b.get_me()
         if query.startswith("اوامري") and event.query.user_id == sbb_b.uid:
             buttons = [
-                [Button.inline("معلومات كرستين", data="AOMRDB")],
+                [Button.inline("معلومات تيبثون", data="AOMRDB")],
                 [
                     Button.inline("البوت", data="eeeeq"),
                     Button.inline("الكروب", data="admincmd_s"),
@@ -76,7 +76,7 @@ async def repo(event):
 @check_owner
 async def _(event):
     butze = [
-        [Button.inline("معلومات كرستين", data="AOMRDB")],
+        [Button.inline("معلومات تيبثون", data="AOMRDB")],
         [
             Button.inline("البوت", data="eeeeq"),
             Button.inline("الكروب", data="admincmd_s"),
@@ -145,7 +145,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على الرمز بالامر   `.وضع الرمز`
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @cr_source""",
+اوامر فارات سورس تيبثون @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -167,7 +167,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @cr_source""",
+اوامر فارات سورس تيبثون @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -187,7 +187,7 @@ async def varssett(event):
 
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @cr_source""",
+اوامر فارات سورس تيبثون @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -211,7 +211,7 @@ async def varssett(event):
 .زخرفة الوقت 9
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @cr_source""",
+اوامر فارات سورس تيبثون @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -231,7 +231,7 @@ async def varssett(event):
 
 *يمكنك استخدا الزخرفة او اللغة الانكليزية او العربية الخ..
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @cr_source""",
+اوامر فارات سورس تيبثون @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="namevar")],
         ],
@@ -270,7 +270,7 @@ async def varssett(event):
 
 * يمكنك كتابة اي كليشة مثلا: عزيزي المستخدم تم حظرك 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين  @cr_source""",
+اوامر فارات سورس تيبثون  @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -289,7 +289,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على عدد التحذيرات كرقم  بالامر   `.وضع عدد التحذيرات `
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @cr_source""",
+اوامر فارات سورس تيبثون @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -307,9 +307,9 @@ async def varssett(event):
 الشرح :  يقوم هذا الامر بتغيير الكليشة (الكلام) التي تظهر عندما يكون امر الحماية شغال ويراسلك احد
 الاستخدام : تقوم بالرد على الكليشة التي تريد وضعها بالامر   `.وضع كليشة الحماية `
 
-* يمكنك الحصول على  كليشة جاهزة من هذه القناة @q_k_2 
+* يمكنك الحصول على  كليشة جاهزة من هذه القناة @Tepthone 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @cr_source""",
+اوامر فارات سورس تيبثون @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -330,7 +330,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : **يمكنك استخدام الاوامر في اي دردشة او محادثة**
-اوامر فارات سورس كرستين @cr_source""",
+اوامر فارات سورس تيبثون @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="pmvars")],
         ],
@@ -366,7 +366,7 @@ async def varssett(event):
 * كيفية جلب رابط الصورة؟
 -بالرد على الصورة المراد استخراج منها الرابط ب  `.تلكراف ميديا`
 ملاحظة : **يمكنك استخدام الاوامر في اي دردشة او محادثة**
-اوامر فارات سورس كرستين @cr_source""",
+اوامر فارات سورس تيبثون @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -383,9 +383,9 @@ async def varssett(event):
 الشرح :  يقوم هذا الامر بتغيير الكليشة (الكلام) التي تظهر عند ارسال  امر  `.فحص`
 الاستخدام : تقوم بالرد على الكليشة التي تريد وضعها بالامر   `.وضع كليشة الفحص `
 
-* يمكنك الحصول على  كليشة جاهزة من هذه القناة @q_k_2
+* يمكنك الحصول على  كليشة جاهزة من هذه القناة @Tepthone
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين @cr_source""",
+اوامر فارات سورس تيبثون @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
@@ -404,7 +404,7 @@ async def varssett(event):
 الاستخدام : تقوم بالرد على الرمز التي تريد وضعه بالامر   `.وضع رمز الفحص `
 
 ملاحظة : يمكنك استخدام الاوامر في اي دردشة او محادثة
-اوامر فارات سورس كرستين  @cr_source""",
+اوامر فارات سورس تيبثون  @Tepthone""",
         buttons=[
             [Button.inline("رجوع", data="alivevar")],
         ],
