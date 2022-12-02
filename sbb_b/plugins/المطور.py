@@ -4,10 +4,10 @@ from sbb_b import sbb_b
 
 from ..Config import Config
 
-ROZ_PIC = "https://telegra.ph/file/54699e9f531dfac087926.jpg"
+ROZ_PIC = "https://telegra.ph/file/f1e757035e56613a9ef92.jpg"
 RAZAN = Config.TG_BOT_USERNAME
 ROZ_T = (
-    f"**مطورين سورس كرستين **\n"
+    f"**مطور سورس تيبثون **\n"
   
 )
 
@@ -22,10 +22,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         if query.startswith("المطور") and event.query.user_id == bot.uid:
             buttons = [
                 [
-                    Button.url("كرستين", "https://t.me/dr_criss"),
-                    Button.url("زين 👨🏼‍💻", "https:/iiqllll/t.me/"),
-                    Button.url("بارلو", "https://t.me/bar_lo0o0"),
-                    Button.url("عمرو 👨🏼‍💻", "https://t.me/cr_amr_sabry"),
+                    Button.url("Hmd", "https://t.me/PPF22"),
                     
                 ]
             ]
